@@ -1,10 +1,13 @@
+import Banner from "./Banner";
+import Category from "./Category";
 
 const Home = () => {
   return (
     <div>
-        <h2>This is home</h2>
+      <Banner />
+      <Category />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
